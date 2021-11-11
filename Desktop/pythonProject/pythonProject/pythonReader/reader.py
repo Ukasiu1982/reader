@@ -39,6 +39,6 @@ def obsluga_CSV():
 
 obsluga_CSV()
 
-# python reader.py "katalog1/katalog11/katalog111/mlb_players.csv" "katalog1/katalog/katalog200" "6,6, 666" "7,6, 777"
+# python main.py "katalog1/katalog11/katalog111/hurricanes.csv" "katalog1/katalog11/katalog200" "6,6, 666" "7,6, 777"
 
 
