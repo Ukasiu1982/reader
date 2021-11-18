@@ -9,7 +9,7 @@ changes = sys.argv[3:]
 def obsluga_CSV():
     if not os.path.isdir(file_output):
         print(f'błąd podanej ścieżki {file_output} lub podany katalog nie istnieje ')
-        os.mkdir(file_output)
+        os.makedirs(file_output)
         print('katalog został utworzony')
 
     wyzszy_katalog, nazwa_pliku = os.path.split(file_input)
